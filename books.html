@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Frame Book Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden; /* Ensure the shadow doesn't overflow */
+        }
+
+        .book-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .book {
+            width: 200px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .book img {
+            max-width: 100%;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+	.menuitem{
+		text-decoration : none ;
+		padding : 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Library Services</h1>
+    </header>
+
+    <main>
+	<div>
+		<a href="home.html" class="menuitem">Home</a>
+		<a href="books.html" class="menuitem">Books</a>
+		<a href="service.html" class="menuitem">Services</a>
+		<a href="about.html" class="menuitem">About Us</a>
+		<a href="contactus.html" class="menuitem">Contact Us</a>
+	</div>
+            <div class="book-container">
+            <div class="book">
+                <img src="book1.jpg" alt="Book 1">
+                <h3>To Kill a Mockingbird</h3>
+                <p>Author: Harper Lee</p>
+		<a href="https://habibullahe12.files.wordpress.com/2017/03/to-kill-a-mockingbird-harperlee.pdf">Read</a>
+            </div>
+
+            <div class="book">
+                <img src="book2.jpg" alt="Book 2">
+                <h3>Romeo and Juliet</h3>
+                <p>Author: William Shakespeare</p>
+		<a href="https://www.gutenberg.org/cache/epub/1513/pg1513-images.html">Read</a>
+            </div>
+	<div class="book">
+                <img src="book3.jpg" alt="Book 3">
+                <h3>Pride and Prejudice</h3>
+                <p>Author: Jane Austen</p>
+		<a href="https://www.gutenberg.org/files/1342/1342-h/1342-h.htm">Read</a>
+            </div>
+	
+	<div class="book">
+                <img src="book4.jpg" alt="Book 4">
+                <h3>Don Quixote</h3>
+                <p>Author:Miguel de Cervantes</p>
+		<a href="https://www.gutenberg.org/cache/epub/996/pg996-images.html">Read</a>
+            </div>
+	<div class="book">
+                <img src="book5.jpg" alt="Book 5">
+                <h3>The Bhagavat Gita</h3>
+                <p>Author: Veda Vasa</p>
+		<a href="https://stotranidhi.com/anubandham/srimad-bhagavad-gita-in-telugu/">Read</a>
+            </div>
+	<div class="book">
+                <img src="book6.jpg" alt="Book 6">
+                <h3>The Story of my Life</h3>
+                <p>Author:  Helen Keller</p>
+		<a href="https://www.gutenberg.org/cache/epub/2397/pg2397-images.html">Read</a>
+            </div>
+	<div class="book">
+                <img src="book7.jpg" alt="Book 7">
+                <h3>The Story of My Experiments with Truth</h3>
+                <p>Author: Mahatma Gandhi</p>
+		<a href="https://www.mkgandhi.org/autobio/autobio.php">Read</a>
+            </div>
+
+            <!-- Add more books as needed -->
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Library Services. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
